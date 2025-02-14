@@ -22,7 +22,7 @@ $ 1 * g(n)$
 
 $g(n)$
 
-__Which is equivalent to a Uniform Cost search: $f(n) = g(n)$__
+**Which is equivalent to a Uniform Cost search: $f(n) = g(n)$**
 
 With weight $W = 0.5$
 
@@ -36,7 +36,7 @@ Since we know that the heuristic is admissable, we know that
 
 $0.5 * h(n) \leq 0.5 * g(n) $
 
-__Which is equivalent to regular A*: $f(n) = g(n) + h(n)$__
+**Which is equivalent to regular A\*: $f(n) = g(n) + h(n)$**
 
 ### Question B
 
@@ -44,4 +44,4 @@ For which values of w are WEIGHTED A* optimal (Assuming that A* only is optimal 
 
 #### Answer
 
-With an admissable heuristic, we are certain that ___Weighted A*___ will find the optimal path for all $W$, where $0 \leq W \leq 1$. This is due to the fact, that for all weights between $0$ and $1$, an admissable heuristic $h(n)$ will at most be $1 * h(n)$ which is $h(n)$. Since the heuristic is admissable, we know that $h(n)$ is __at most__ the cost of reaching the goal. Since the heuristic is not overestimating the cost of reaching the goal, the algorithm will always find the optimal path.
+With an admissable heuristic, we are certain that ***Weighted A*** will find the optimal path for all $W$, where $0 \leq W \leq 1$. This is due to the fact, that for all weights between $0$ and $1$, an admissable heuristic $h(n)$ will at most be $1 * h(n)$ which is $h(n)$. Since the heuristic is admissable, we know that $h(n)$ is **at most** the cost of reaching the goal. Since the heuristic is not overestimating the cost of reaching the goal, the algorithm will always find the optimal path.
