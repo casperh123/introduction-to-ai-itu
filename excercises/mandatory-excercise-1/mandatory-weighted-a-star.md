@@ -8,7 +8,7 @@ Which algorithm does WEIGHTED A* correspond to with w = 1 and w = 0.5, respectiv
 
 #### Answer
 
-The function 
+The function
 
 $f(n) = (1-w)g(n) + wh(n)$
 
@@ -18,7 +18,7 @@ $(1 - 0) * g(n) + 0 * h(n)$
 
 Can be reduced to 
 
-$ 1 * g(n)$
+$1 * g(n)$
 
 $g(n)$
 
@@ -34,7 +34,7 @@ $0.5 * g(n) + 0.5 * h(n)$
 
 Since we know that the heuristic is admissable, we know that
 
-$0.5 * h(n) \leq 0.5 * g(n) $
+$0.5 * h(n) \leq 0.5 * g(n)$
 
 **Which is equivalent to regular A\*: $f(n) = g(n) + h(n)$**
 
